@@ -24,6 +24,7 @@ body {
 .hero-section .hero-container {
   /* border: 1px solid white; */
   height: 80vh;
+  /* this is an  */
   max-width: 100%;
   display: flex;
   flex-direction: row;
