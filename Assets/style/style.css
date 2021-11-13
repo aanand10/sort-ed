@@ -1,6 +1,154 @@
 /* !========================== FONTS ===================  */
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* !============================STYLE======================  */
-HTML {
+
+/* ================================== universal styling classes =============================== */
+.subheading {
+  font-size: 31px;
+  color: #000b4d;
+}
+html {
   scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #0f0f0f;
+}
+
+.hero-section .hero-container {
+  /* border: 1px solid white; */
+  height: 75vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.hero-section .hero-container .text-container {
+  /* border: 1px solid red; */
+  height: 75vh;
+  width: 70%;
+  padding-top: 10vh;
+  color: #eeeeee;
+}
+.hero-section .hero-container .text-container p {
+  font-weight: 400;
+  font-size: 27px;
+  color: #eeeeee;
+}
+
+.hero-section .hero-container .text-container .title {
+  font-size: 75px;
+  line-height: 90px;
+  word-spacing: 12px;
+  color: #8685ef;
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.445);
+  -webkit-text-stroke: 1px #2220642d;
+}
+.hero-section .hero-container .text-container h3 {
+  font-size: 27px;
+  font-weight: 450;
+  color: #8685ef;
+}
+.hero-section .hero-container .text-container h3 span {
+  font-size: 35px;
+  font-weight: 500;
+  /* color: red; */
+  color: #eeeeee;
+}
+.hero-section .hero-container .text-container a button {
+  width: 360px;
+  margin-top: 10px;
+  padding: 2px 2px;
+  font-size: 27px;
+  font-weight: 500;
+  color: aliceblue;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 3px 3px 20px #000b4d;
+
+  /* animation style  */
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  /* min-width: 140px; */
+  /* padding: 3px; */
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.hero-section .hero-container .text-container a button:active,
+button:hover {
+  outline: 0;
+}
+
+.hero-section .hero-container .text-container a button span {
+  background-color: rgb(5, 6, 45);
+  padding: 22px 7px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+  font-size: 27px;
+}
+
+.hero-section .hero-container .text-container a button:hover span {
+  background: none;
+}
+
+.hero-section .hero-container .text-container a button:active {
+  transform: scale(0.9);
+}
+.hero-section .hero-container .image-container {
+  /* border: 1px solid pink; */
+  /* background-image: url("/Assets/images/Sec\ 1\ Hero\ Book\ img.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+   background-size: cover; 
+  background-size: 100vh; */
+  height: 75vh;
+  width: 30%;
+}
+.hero-section .hero-container .image-container img {
+  margin-left: -100px;
+  height: 50vh;
+  transform: scaley(2.2);
+  transform: scalex(4.2);
+  -webkit-transform: scalex(4.2);
+  -moz-transform: scalex(4.2);
+  -ms-transform: scalex(4.2);
+  -o-transform: scalex(4.2);
 }
