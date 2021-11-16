@@ -18,12 +18,13 @@ html {
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #0f0f0f;
+  background-color: #28282b;
+  color: #eeeeee;
 }
 .hero-section {
-  height: 117vh;
+  height: 100vh;
   width: 100%;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .hero-section .hero-container {
   /* border: 1px solid white; */
@@ -35,7 +36,8 @@ body {
   align-items: center;
   justify-content: center;
   padding: 50px;
-  border: 1px solid red;
+  padding-left: 100px;
+  /* border: 1px solid red; */
 }
 
 .hero-section .hero-container .text-container {
@@ -161,5 +163,42 @@ button:hover {
 .hero-section .counter-container {
   width: 100%;
   height: 37vh;
-  border: 2px dotted royalblue;
+  /* border: 2px dotted royalblue; */
+}
+
+/*======================== counter section ====================== */
+.hero-section .counter-container {
+  height: 20vh;
+  width: 100%;
+  /* padding-bottom: 40px; */
+  padding: 10px 0 10px 0;
+  /* border: 1px solid rgb(60, 255, 0); */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+/* .solution-section .counter-section h2 .square {
+  font-size: 40px;
+  padding-bottom: 100px;
+} */
+.hero-section .counter-container .counter-box {
+  height: 20vh;
+  width: 20%;
+  /* border: #0093e9 1px solid; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section .counter-container .counter-box h2 {
+  font-size: 40px;
+  color: #393e46;
+  color: #00fff5;
+  text-shadow: 1.5px 1.5px #00adb5;
+}
+.hero-section .counter-container .counter-box p {
+  font-size: 25px;
+  color: #eeeeee;
 }
