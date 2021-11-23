@@ -32,7 +32,7 @@ body {
   /* border: 1px solid white; */
 }
 .hero-section .hero-container {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   height: 100vh;
   /* this is an  */
   max-width: 100%;
@@ -206,7 +206,7 @@ button:hover {
     difference, difference, normal;
   display: flex;
   flex-direction: row;
-  width: 85%;
+  width: 90%;
   height: 55vh;
   justify-content: center;
   align-items: center;
@@ -259,7 +259,6 @@ p {
   height: 35vh;
   width: 100%;
   /* padding-bottom: 40px; */
-  padding: 10px 0 10px 0;
   /* border: 1px solid rgb(60, 255, 0); */
   display: flex;
   flex-direction: row;
@@ -271,8 +270,8 @@ p {
   padding-bottom: 100px;
 } */
 .video-counter .counter-container .counter-box {
-  height: 20vh;
-  width: 20%;
+  height: 25vh;
+  width: 23%;
   /* border: #0093e9 1px solid; */
 
   display: flex;
@@ -281,12 +280,12 @@ p {
   align-items: center;
 }
 .video-counter .counter-container .counter-box h2 {
-  font-size: 40px;
+  font-size: 80px;
   color: #393e46;
   color: #00fff5;
   text-shadow: 1.5px 1.5px #00adb5;
 }
 .video-counter .counter-container .counter-box p {
-  font-size: 25px;
+  font-size: 30px;
   color: #eeeeee;
 }
