@@ -1,6 +1,7 @@
 @media screen and (max-width: 800px) {
   body {
     /* background-color: white; */
+    max-width: 100%;
   }
   .hero-section {
     height: 100vh;
@@ -63,7 +64,7 @@
     display: block;
     margin: 0 auto;
     height: 30vh;
-    width: 100%;
+    width: 94%;
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
@@ -72,5 +73,73 @@
   }
   .hero-section .hero-container .text-container * {
     margin: 5px 0;
+  }
+  /* counter and video section  */
+  .video-counter {
+    max-width: 100%;
+    /* border: 1px solid white; */
+  }
+  .video-counter .counter-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 30vh;
+    margin: 15px 0;
+  }
+  .video-counter .counter-container .counter-box {
+    /* flex-direction: column; */
+    width: 48%;
+    height: 15vh;
+  }
+  .video-counter .counter-container .counter-box h2 {
+    font-size: 37px;
+  }
+  .video-counter .counter-container .counter-box p {
+    font-size: 25px;
+  }
+  .video-counter .video-container {
+    height: auto;
+    height: 64vh;
+    display: flex;
+    flex-direction: column-reverse;
+    /* border: 1px solid white; */
+    padding: 5px;
+  }
+  .video-counter .video-container .video-container-text {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid white; */
+  }
+
+  .video-counter .video-container .video-container-text .title-text {
+    padding: 5px 10px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .video-counter .video-container .video-container-text p {
+    margin: 0;
+    margin: -10px 0 20px 0;
+  }
+  .video-counter .video-container .video-container-text a {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .video-counter .video-container .video-container-video {
+    margin: 0;
+
+    width: 95%;
+    padding: 0;
+    /* border: 1px solid white; */
+  }
+  .video-counter .video-container .video-container-video iframe {
+    margin: 10px 0;
+    width: 100%;
+    height: 192px;
+    /* padding: 10px 0; */
   }
 }

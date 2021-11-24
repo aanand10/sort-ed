@@ -1245,3 +1245,39 @@ footer {
   width: 42px;
   height: 42px;
 }
+
+/* mobile reffrance  */
+.solution-section .vdo-section {
+  height: auto;
+}
+.solution-section .vdo-section .vdo-title {
+  flex-direction: column;
+  height: auto;
+}
+
+.solution-section .vdo-section .vdo-title .title-text {
+  padding: 5px 10px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.solution-section .vdo-section .vdo-title .vdo iframe {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  /* padding: 10px 0; */
+}
+.solution-section .counter-section {
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 37vh;
+}
+.solution-section .counter-section .counter-box {
+  /* flex-direction: column; */
+  width: 48%;
+  height: 15vh;
+}
+
+.solution-section .counter-section .counter-box p {
+  font-size: 25px;
+}
