@@ -27,6 +27,7 @@
     color: #00fff5;
     text-shadow: 2px 2px #00adb5;
     -webkit-text-stroke: 1 px #2220642d;
+    word-spacing: 1px;
   }
   .hero-section .hero-container .text-container p {
     font-weight: 400;
